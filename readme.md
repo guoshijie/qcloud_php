@@ -1,5 +1,5 @@
 ##项目简介
-####这是一个微信公众平台开发示例,基于PHP框架Laravel5.2
+####腾讯文智情感分析服务接口,基于PHP框架Laravel5.2
 >- **IDE:** PhpStorm 9.0.2
 >- **PHP VERSION:** 5.6.7
 >- **DATABASE:** Mysql 
