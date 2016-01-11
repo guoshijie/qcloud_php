@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/check', 'Wenzhi\WenzhiController@check');
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes

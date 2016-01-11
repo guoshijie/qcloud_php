@@ -3,8 +3,6 @@
 Homestead.yaml
 Homestead.json
 /bootstrap/compiled.php
-.env.*.php
-.env.php
 .env
 *.swo
 *.swp
@@ -17,7 +15,7 @@ org.eclipse.php.core.prefs
 org.eclipse.core.resources.prefs
 vendor/composer/autoload_classmap.php
 vendor/composer
-app/config/database.php
+config/database.php
 .metadata/
 RemoteSystemsTempFiles/
 /nbproject/private/
