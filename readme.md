@@ -1,2 +1,35 @@
-# laravel_demo
-laravel5.2
+##项目简介
+####腾讯文智情感分析服务接口,基于PHP框架Laravel5.2
+>- **IDE:** PhpStorm 9.0.2
+>- **PHP VERSION:** 5.6.7
+>- **DATABASE:** Mysql 
+>- **Author:** Steven Guo
+
+##注意事项
+####1.下载项目后将.env.example更名为.env
+```
+mv .env.example .env
+```
+
+####2.给storage和bootstrap/cache目录赋予权限
+```
+chmod -R 775 storage
+chmod -R 775 bootstrap/cache
+```
+
+##常用命令
+####创建Models目录
+```
+php artisan make:model Models
+```
+
+####创建Controller和Model
+```
+php artisan make:controller Admin/AdminController
+php artisan make:model Models/User/UserModel
+```
+
+###解决.gitignore无效问题
+```
+git rm --cached filename
+```
